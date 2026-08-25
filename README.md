@@ -10,31 +10,6 @@ styles.css      → all styling
 script.js       → scroll reveal + active nav highlight
 ```
 
----
-
-## 1. Upload to GitHub
-
-**Option A — GitHub website (no terminal needed)**
-1. Go to [github.com/new](https://github.com/new) and create a repository named
-   `dilip-portfolio` (or `<your-username>.github.io` — see note in Step 2).
-2. Leave it Public, don't initialize with a README (you already have one).
-3. Click **Create repository**.
-4. On the next page, click **uploading an existing file**.
-5. Drag in `index.html`, `styles.css`, `script.js`, and `README.md`.
-6. Scroll down, click **Commit changes**.
-
-**Option B — Git command line**
-```bash
-cd portfolio
-git init
-git add .
-git commit -m "Initial portfolio site"
-git branch -M main
-git remote add origin https://github.com/<your-username>/dilip-portfolio.git
-git push -u origin main
-```
-
----
 
 ## 2. Host it with GitHub Pages
 
